@@ -1,5 +1,43 @@
 # Citizens NPC Storage
-
+npc:
+  '490':
+    name: telosusr
+    uuid: e720814f-2548-4ec7-b911-67748ab0db7c
+    traits:
+      spawned: false
+      location:
+        world: greenfield
+        x: '-1746.5'
+        y: '69.0'
+        z: '226.5'
+        yaw: '-90.0'
+        pitch: '0.0'
+      gravity:
+        enabled: true
+      age:
+        age: -24000
+        locked: true
+      slimesize:
+        size: 1
+      type: PLAYER
+      owner:
+        owner: Boofurd
+        uuid: 257a45d67db0492d945ca030f4985932
+    traitnames: slimesize,mounttrait,location,age,inventory,gravity,type,spawned,owner,poses
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE0ODQ5ODk5NzA3MTYsInByb2ZpbGVJZCI6IjI1N2E0NWQ2N2RiMDQ5MmQ5NDVjYTAzMGY0OTg1OTMyIiwicHJvZmlsZU5hbWUiOiJCb29mdXJkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YmU4YTYzY2VkYTc4OGMxOTFjNDRhYTA1YTZlNDBiMGQ2NzAzNDQ4MmMxZmYzNDM3Mzk3MGY4MjhhMWQ5In19fQ==
+      cached-skin-uuid-name: Boofurd
+      player-skin-use-latest: false
+      cached-skin-uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
+      player-skin-name: Boofurd
+      player-skin-signature: fzZXCqOQRrferYuOYK7LGWnqykgMMJmq6mFJUykg5+AIUz4280jP5GWK9BrxYqp8oDEb3aXG36jUTcXhdcOkYS+LIlIAKBl8OwtCJzc57ZaKm+scgxXkjCbFumqaJXY/7/169BEOx+g4hDfJqgs1cgtDBVP3uE3YbxZf0GmeQNS6g491JuOBWYbBDGDgEX2gc76jE1tXkBJ2Uy9/W/h99zAUlqQBJUDJnLaBBRTXoZPgoz4frsIE86OS2kAUA9KQo0iYmzUN5M0mqhpVNP6MpnkSu/GCBEVkc5d900cT/uSvZmnuuIjWAfa+UPzdFZ68DNmUIdLPuVlBh7cSBAdwYYpe5XaVxCLVbekv89L2TDKypUEpviOwPSa/m6/Vlv8b9AU0vEcjTlNDFzsgCYvKC2XHKjYKZ7soYQktb045hrV1z0+55z8cqtyVlwGPUEgOzjd/oVpRLn98JGTRvvWqLmyu1zMC3j76TdSjZpxxjmw/sJSthJPJzu4+XHUBqSWOUTHOhm/l1HvMcmZipgi6/LFnwt4GXz9EHqF0bNL9pXu8ssP2Sxn7kiOORH9yOzfw230DoXFgqbLddAq+fjsPRV0bNrPXC6jf+r5UblCdT52onGeVw0Z/dau2Z4CKXO6YCYGQfYcbTnQXQeeATUHp4cBaBFSJLFfeulNPSjpQ5N8=
+      nameplate-visible: false
+      avoidwater: false
+      usedefaultstuckaction: true
 npc:
   '380':
     name: Darkseid
