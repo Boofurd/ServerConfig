@@ -1,0 +1,61 @@
+@plr = player()
+
+
+
+
+
+@hero = associative_array(
+
+            'name': '§fWh§7it§fe §fLan§7te§frn§8(§fT§7U§8)',
+
+            'class': 'whitelanterntelosusr',
+
+            'sig': 'fzZXCqOQRrferYuOYK7LGWnqykgMMJmq6mFJUykg5+AIUz4280jP5GWK9BrxYqp8oDEb3aXG36jUTcXhdcOkYS+LIlIAKBl8OwtCJzc57ZaKm+scgxXkjCbFumqaJXY/7/169BEOx+g4hDfJqgs1cgtDBVP3uE3YbxZf0GmeQNS6g491JuOBWYbBDGDgEX2gc76jE1tXkBJ2Uy9/W/h99zAUlqQBJUDJnLaBBRTXoZPgoz4frsIE86OS2kAUA9KQo0iYmzUN5M0mqhpVNP6MpnkSu/GCBEVkc5d900cT/uSvZmnuuIjWAfa+UPzdFZ68DNmUIdLPuVlBh7cSBAdwYYpe5XaVxCLVbekv89L2TDKypUEpviOwPSa/m6/Vlv8b9AU0vEcjTlNDFzsgCYvKC2XHKjYKZ7soYQktb045hrV1z0+55z8cqtyVlwGPUEgOzjd/oVpRLn98JGTRvvWqLmyu1zMC3j76TdSjZpxxjmw/sJSthJPJzu4+XHUBqSWOUTHOhm/l1HvMcmZipgi6/LFnwt4GXz9EHqF0bNL9pXu8ssP2Sxn7kiOORH9yOzfw230DoXFgqbLddAq+fjsPRV0bNrPXC6jf+r5UblCdT52onGeVw0Z/dau2Z4CKXO6YCYGQfYcbTnQXQeeATUHp4cBaBFSJLFfeulNPSjpQ5N8=',
+
+            'val': 'eyJ0aW1lc3RhbXAiOjE0ODQ5ODk5NzA3MTYsInByb2ZpbGVJZCI6IjI1N2E0NWQ2N2RiMDQ5MmQ5NDVjYTAzMGY0OTg1OTMyIiwicHJvZmlsZU5hbWUiOiJCb29mdXJkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YmU4YTYzY2VkYTc4OGMxOTFjNDRhYTA1YTZlNDBiMGQ2NzAzNDQ4MmMxZmYzNDM3Mzk3MGY4MjhhMWQ5In19fQ==',
+
+            'trail': '',
+
+            'op': 'false',
+
+            'speech': "In the brightest day, in the blackest night, no evil shall escape my sight.",
+
+            'powers': array(
+
+                "/buff",
+
+                "/carryplayer",
+
+                "/dismountplayer",
+
+                "/jump 0-7",
+
+                "/run 0-7",
+
+                "/haste 0-7",
+
+                "/flyspeed <number>",
+
+                "/fly"
+
+            ),
+
+            'buffs': array(
+
+                "/effect ". @plr ." 5 9999 19 true",
+
+                "/effect ". @plr ." 10 9999 3 true",
+
+                "/effect ". @plr ." 21 9999 14 true",
+
+                "/shot give ". @plr ." whiteenergybeam",
+                
+                "/shot give ". @plr ." kryptonianlaservision",
+
+                "/give ". @plr ." 95 64",
+
+                "/give ". @plr ." minecraft:quartz_block 1 20:2 16:155 name:&fWh&7it&fe&8_&fLan&7te&frn&8_&fRi&7ng"                
+
+            )
+
+        )
