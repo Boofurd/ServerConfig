@@ -3,7 +3,7 @@ groups:
     inheritance:
     - mortal
     options:
-      prefix: '&1O&8pti&1mus'
+      prefix: '&1O&8pti&1mu&8s'
       suffix: '&1'
     worlds:
       survival:
